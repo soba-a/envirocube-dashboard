@@ -1,0 +1,35 @@
+p {
+    font-size: 10px;
+    color: #333;
+
+}
+
+/* Center the content */
+.home-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1vh;
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cube-State{
+    width: 300px;
+    height: 300px;
+}
