@@ -1,0 +1,29 @@
+.content-container-vert {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.content-container-horz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: horizontal;
+}
+
+.last-display-box{
+    width: 175px;
+    height: 175px;
+    border: 5px solid black;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.last-display-text{
+    font-size: 30px;
+    color: #333;
+}
+
